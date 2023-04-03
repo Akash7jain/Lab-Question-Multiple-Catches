@@ -8,9 +8,9 @@ void test(int x)
  else
  throw 'x';
  } catch (int x) {
- cout << "Catch a integer and that integer is:" << x<<endl;
+ cout << "Catch a integer and that integer is :" << x<<endl;
  } catch (char x) {
- cout << "Catch a character and that character is:" << x<<endl;
+ cout << "Catch a character and that character is :" << x<<endl;
  } }
 int main() 
 {
